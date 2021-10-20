@@ -1,24 +1,21 @@
+import { React, useState } from "react";
+import CartWidget from "./CartWidget";
 
-export const NavBar = () => {
+export const NavBar = ({numero}) => {
 
+    
    
     return (
         <div>
-             <h1 className="title">Mundo Padel</h1>
+             <h1>Mundo Padel</h1>
 
-        <div className="contenedor">
-           
-
-           <ul className="menu">
-               <li  onClick={()=>{alert("Me diste click")}}><a href="http://">Paletas</a></li>
-               <li><a href="http://">Indumentaria</a></li>
-               <li><a href="http://">Accesorios</a></li>
-               <li><a href="http://">Bolsos</a></li>
-               <li><a href="http://">Suplementos</a></li>
-           </ul>
+        <div className="container d-flex flex-row-reverse">
+               <li><CartWidget
+                numero={numero}
+               /></li>
         </div>
+
         </div>
     )
 }
 
-export default NavBar
