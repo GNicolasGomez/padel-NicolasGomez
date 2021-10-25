@@ -22,3 +22,38 @@ h1, h2  {
   font-family: 'Staatliches', cursive;
   letter-spacing: 1px;
 }
+.card-img-top
+{
+  height: 30rem;
+  width: 25rem;
+  justify-content:end;
+  text-align: center;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.card-img-top img
+{
+  justify-content: center;
+  text-align: center;
+}
+.card{
+  width: 70%;
+}
+
+.alerta-error {
+  background-color: white;
+  color: red;
+  padding: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family:  'Staatliches', cursive;
+  max-width: 40%;
+  margin-left: 3rem;
+
+}
+
+.botoncillo {
+  position: fixed;
+
+}
