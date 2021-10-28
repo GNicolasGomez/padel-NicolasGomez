@@ -1,4 +1,4 @@
-import paletaSidespin from './padel/paletaSidespin.jpg'
+import paletaSidespin from './padel/paletaSidespin'
 import indumentaria from './padel/indumentaria.jpg'
 
 export default {
